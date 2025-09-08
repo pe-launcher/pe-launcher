@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "pe-launcher-frontend",
+    "pe-launcher-backend",
+    "pe-launcher-common"
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+authors = [
+    "Millesant"
+]
+license = "MIT"
+description = "A simple and blazing fast Minecraft: Pocket Edition launcher written in Rust."
